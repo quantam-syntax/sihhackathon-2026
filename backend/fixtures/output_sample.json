@@ -1,0 +1,21 @@
+{
+  "image_id": "img_0001",
+  "product_category": "packaged_food",
+  "compliance_status": "non_compliant",
+  "violations": [
+    {
+      "field": "expiry_date",
+      "rule_reference": "Rule 6(1)(f), LMPC Rules 2011",
+      "severity": "major",
+      "description": "Best-before/expiry date missing on label"
+    },
+    {
+      "field": "manufacturer_address",
+      "rule_reference": "Rule 6(1)(a), LMPC Rules 2011",
+      "severity": "major",
+      "description": "Manufacturer address missing"
+    }
+  ],
+  "compliant_fields": ["mrp", "net_quantity", "manufacturer_name", "consumer_care_contact", "country_of_origin"],
+  "checked_at": "2026-09-01T18:30:00Z"
+}
