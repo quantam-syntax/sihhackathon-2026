@@ -1,0 +1,24 @@
+{
+  "total_scans": 250,
+  "compliant": 140,
+  "non_compliant": 95,
+  "needs_review": 15,
+  "violations_by_field": {
+    "expiry_date": 40,
+    "manufacturer_address": 25,
+    "unit_sale_price": 18,
+    "mrp": 12
+  },
+  "violations_by_category": {
+    "packaged_food": 50,
+    "cosmetics": 30,
+    "electronics": 15
+  },
+  "trend_over_time": [
+    { "date": "2026-08-28", "scans": 40, "violations": 15 },
+    { "date": "2026-08-29", "scans": 55, "violations": 20 },
+    { "date": "2026-08-30", "scans": 60, "violations": 25 },
+    { "date": "2026-08-31", "scans": 45, "violations": 18 },
+    { "date": "2026-09-01", "scans": 50, "violations": 17 }
+  ]
+}

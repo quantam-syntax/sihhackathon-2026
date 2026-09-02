@@ -1,0 +1,6 @@
+# PaddlePaddle currently publishes broadly usable wheels for Python 3.10–3.12.
+# Create the vision environment with one of those Python versions.
+paddlepaddle>=2.6,<3.0
+paddleocr>=2.7,<3.0
+opencv-python>=4.8
+numpy>=1.24
