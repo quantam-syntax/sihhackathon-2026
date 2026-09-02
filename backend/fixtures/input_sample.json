@@ -1,0 +1,16 @@
+{
+  "image_id": "img_0001",
+  "product_category": "packaged_food",
+  "extracted_fields": {
+    "mrp": { "value": "₹120.00", "confidence": 0.92, "present": true },
+    "net_quantity": { "value": "500g", "confidence": 0.88, "present": true },
+    "manufacturing_date": { "value": "03/2026", "confidence": 0.75, "present": true },
+    "expiry_date": { "value": null, "confidence": 0.0, "present": false },
+    "manufacturer_name": { "value": "ABC Foods Pvt Ltd", "confidence": 0.90, "present": true },
+    "manufacturer_address": { "value": null, "confidence": 0.0, "present": false },
+    "consumer_care_contact": { "value": "1800-XXX-XXXX", "confidence": 0.70, "present": true },
+    "unit_sale_price": { "value": null, "confidence": 0.0, "present": false },
+    "country_of_origin": { "value": "India", "confidence": 0.85, "present": true }
+  },
+  "raw_ocr_text": "ABC Foods Pvt Ltd. Net Qty: 500g. Mfg: 03/2026. MRP: ₹120.00 incl of all taxes. Customer care: 1800-XXX-XXXX. Made in India."
+}
