@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Compliance report for scanned product label — Legal Metrology (Packaged Commodities) Rules, 2011." />
+  <meta name="theme-color" content="#3a6fba" />
+  <title>LM Compliance Scanner — Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/variables.css" />
+  <link rel="stylesheet" href="/styles/base.css" />
+  <link rel="stylesheet" href="/styles/components.css" />
+  <link rel="stylesheet" href="/styles/responsive.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="container">
+
+      <!-- ── App Header ── -->
+      <header class="app-header">
+        <div class="app-header__icon" aria-hidden="true">🛡️</div>
+        <div>
+          <div class="app-header__title">LM Compliance Scanner</div>
+          <div class="app-header__subtitle">Compliance Report</div>
+        </div>
+      </header>
+
+      <!-- ── Report content (populated by JS) ── -->
+      <main id="report-root" aria-label="Compliance report">
+        <!-- Components rendered here by report.js -->
+      </main>
+
+      <!-- ── No data fallback ── -->
+      <div id="no-data" hidden>
+        <div class="empty-state">
+          <div class="empty-state__icon" aria-hidden="true">📋</div>
+          <h1 class="empty-state__title">No Scan Result</h1>
+          <p class="empty-state__description">
+            No scan result found. Please scan a product label first.
+          </p>
+          <a href="/" class="btn btn--primary btn--large">
+            <span aria-hidden="true">📷</span>
+            Go to Scanner
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module" src="/src/report.js"></script>
+</body>
+</html>
